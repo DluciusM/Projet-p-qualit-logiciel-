@@ -17,6 +17,8 @@ Le dépôt contient plusieurs travaux pratiques réalisés dans le cadre du modu
 - **tp-gherkin** → Introduction au **BDD (Behavior Driven Development)** avec **Cucumber + Playwright** :  
   Écriture de scénarios Gherkin et mapping des steps vers du code TypeScript.
 
+- **tp-mock** 
+
 ## Technologies utilisées
 - **Node.js**
 - **TypeScript**
