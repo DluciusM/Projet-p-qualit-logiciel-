@@ -138,7 +138,7 @@ npm run codegen             # Outil super pratique pour générer du code de tes
 
 ---
 
-## 📊 Technologies Utilisées
+## Technologies Utilisées
 
 | Technologie | Version | Description |
 |------------|---------|-------------|
@@ -287,7 +287,7 @@ Par défaut les tests tournent en mode headless (sans afficher le navigateur). C
 
 Le test de validation de base marche nickel :
 ```bash
-✅ Page d'accueil accessible !
+  Page d'accueil accessible !
 ```
 
 Par contre, vu que Label'Vie est un site en prod avec une structure HTML un peu complexe, **certains sélecteurs ont besoin d'être affinés**. Le projet est bien structuré, y'a juste à :
@@ -354,7 +354,7 @@ Si on avait plus de temps, on pourrait ajouter :
 - Tests de performance
 - Tests d'accessibilité
 
-Mais bon, faut bien s'arrêter à un moment !
+Mais bon, c'était quand-même sympa !
 
 ---
 
