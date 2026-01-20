@@ -55,7 +55,7 @@ On a aussi fait quelques scénarios de bout en bout, par exemple : rechercher un
 
 ---
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 projet-final/
@@ -323,7 +323,7 @@ On utilise les préfixes classiques : feat, fix, docs, refactor, test, chore.
 
 ---
 
-## 🎓 Concepts Appliqués
+## Concepts Appliqués
 
 | Concept | Description | Application |
 |---------|-------------|-------------|
