@@ -138,17 +138,6 @@ npm run codegen             # Outil super pratique pour générer du code de tes
 
 ---
 
-## Technologies Utilisées
-
-| Technologie | Version | Description |
-|------------|---------|-------------|
-| **Playwright** | ^1.56.1 | Framework de tests E2E multi-navigateurs |
-| **Cucumber** | ^10.3.1 | Framework BDD pour Gherkin |
-| **TypeScript** | ^5.3.3 | Langage typé pour un code robuste |
-| **Node.js** | ≥18 | Environnement d'exécution JavaScript |
-
----
-
 ## Architecture (POM)
 
 On a structuré le projet avec le **Page Object Model**, c'est un pattern assez classique en test E2E. L'idée c'est de :
@@ -302,7 +291,7 @@ Une fois ça fait, tous les tests devraient passer sans problème.
 
 ## Git
 
-On a mis un `.gitignore` pour pas commit de la merde :
+On a mis un `.gitignore` pour pas commit n'importe quoi :
 ```
 node_modules/          # Sinon le repo fait 200Mo
 /test-results/         
@@ -323,18 +312,6 @@ On utilise les préfixes classiques : feat, fix, docs, refactor, test, chore.
 
 ---
 
-## Concepts Appliqués
-
-| Concept | Description | Application |
-|---------|-------------|-------------|
-| **E2E Testing** | Tests du parcours utilisateur complet | Tous les scénarios testent des actions réelles |
-| **POM** | Architecture Page Object Model | 4 classes de pages (Home, Category, Cart, Search) |
-| **BDD** | Behavior Driven Development | 4 fichiers .feature avec 10+ scénarios |
-| **Gherkin** | Langage naturel pour les tests | Syntaxe Given/When/Then en français |
-| **Automation** | Tests automatisés reproductibles | Exécution en CI/CD possible |
-
----
-
 ## Ce qu'on pourrait améliorer
 
 Si on avait plus de temps, on pourrait ajouter :
@@ -345,8 +322,6 @@ Si on avait plus de temps, on pourrait ajouter :
 - Tests d'accessibilité
 
 Mais bon, c'était quand-même sympa !
-
----
 
 ---
 
