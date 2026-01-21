@@ -4,7 +4,7 @@
 
 Pour ce projet, on a choisi de tester le site **Label'Vie** (https://www.labellevie.com), qui est un supermarché en ligne marocain assez complet.
 
-On a décidé d'utiliser plusieurs technos pour avoir un projet solide :
+On a décidé d'utiliser plusieurs technos pour avoir notre projet :
 - **Playwright** pour automatiser les tests (parce que c'est vraiment puissant pour du E2E)
 - **Page Object Model** pour organiser le code proprement et pas se retrouver avec du spaghetti
 - **BDD/Gherkin** avec Cucumber - comme ça même les non-devs peuvent lire les scénarios
@@ -35,7 +35,7 @@ C'est un site de supermarché en ligne marocain. Ils ont pas mal de rayons :
 - Plus de 8000 références au supermarché
 - Et même du traiteur
 
-Bref, y'a de quoi tester pas mal de fonctionnalités !
+Bref, il y a de quoi tester pas mal de fonctionnalités !
 
 ---
 
@@ -335,16 +335,6 @@ On utilise les préfixes classiques : feat, fix, docs, refactor, test, chore.
 
 ---
 
-## Ressources utiles
-
-Si vous voulez creuser :
-- [Doc Playwright](https://playwright.dev/)
-- [Doc Cucumber](https://cucumber.io/docs/cucumber/)
-- [Référence Gherkin](https://cucumber.io/docs/gherkin/reference/)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-
----
-
 ## Ce qu'on pourrait améliorer
 
 Si on avait plus de temps, on pourrait ajouter :
@@ -362,6 +352,4 @@ Mais bon, c'était quand-même sympa !
 
 **Projet réalisé en janvier 2026**  
 Dans le cadre du module Qualité Logicielle - 5A ESIEA  
-Encadré par Youssef Touati
-
 Repo : https://github.com/DluciusM/Projet-p-qualit-logiciel-
