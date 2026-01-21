@@ -18,7 +18,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Fix permissions for local binaries
+        run: chmod -R +x node_modules/.bin || true
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
